@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+<body>
+
+<div class="main">
+    {% block header %}<header>{{ header }}</header>{% endblock %}
+    {% block body %}{% endblock %}
+    {% block footer %}{% endblock %}
+</div>
+
+</body>
+</html>
